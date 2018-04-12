@@ -8,7 +8,7 @@
  * @authors Hoovoi (key1045@qq.com)
  * @date    2018-04-12 15:43:41
  */
-function splitArrayColMin(x,n,fn){
+;function splitArrayColMin(x,n,fn){
 	this.x = x.concat();
 	this.len = this.x.length;
 	this.n = n;
