@@ -28,12 +28,7 @@ splitArrayColMin.prototype = {
 		return sum;
 	},
 	getMin: function(arr){
-		var min = arr[0];
-		for(var i=1,len=arr.length;i<len;i++){
-			if(arr[i]<min){
-				min = arr[i]
-			}
-		}
+		var min = Math.min.apply(null,arr);
 		arr.splice(arr.indexOf(min),1);
 		return min;
 	},
